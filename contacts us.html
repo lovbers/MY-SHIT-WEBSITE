@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>anime.cloud-terms and service 
+    </title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime cloud - Terms and Services</title>
+    <link rel="icon" href="anime.webp" type="image/x-icon"> 
+    <link rel="stylesheet" href="./assets/styles/terms&service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/media.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo-title-container">
+            <img src="anime.webp" alt="Anime Logo" class="anime-image">
+            <h1 class="anime-title">Anime Cloud</h1>
+        </div>
+        <div class="nav-links">
+            <a href="frontpage.html"><i class="fas fa-home"></i> Home</a>
+        
+            <a href="movies.html"><i class="fas fa-film"></i> Movies</a>
+            <a href="terms&service.html"><i class="fas fa-file-contract"></i> Terms</a>
+            <a href="dashboard.html"><i class="fas fa-user-circle"></i> Profile</a>
+            <a href="thankyou.html"><i class="fas fa-heart"></i> thanks!</a>
+        </div>
+    
+    <div class="topnav">
+        <a href="#home" class="active">&nbsp;&nbsp;&nbsp;</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="terms&service.html">termsand service </a>
+            <a href="dashboard.html">PROFILE</a>
+            <a href="movies.html">movies</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </nav>
+    <main class="contact-wrapper">
+        <section class="contact-content">
+            <h1>Contact Us</h1>
+    
+            <p>We'd love to hear from you! Please use the form below to reach out to us with any questions, feedback, or concerns:</p>
+    
+            <h2>1. General Inquiries</h2>
+            <p>If you have any general questions, please feel free to email us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:zenathecookie@gmail.com">zenathecookie@gmail.com</a></p>
+    
+            <h2>2. Customer Support</h2>
+            <p>If you're experiencing any issues with our services, please contact our customer support team:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@animecloud.com">support@animecloud.com</a></p>
+    
+            <h2>3. Social Media</h2>
+            <p>You can also reach us through our social media channels:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/AnimeCloud">Facebook</a></li>
+                <li><a href="https://twitter.com/AnimeCloud">Twitter</a></li>
+                <li><a href="https://www.instagram.com/AnimeCloud">Instagram</a></li>
+            </ul>
+    
+            <h2>4. Address</h2>
+            <p>If you'd prefer to send a letter or meet in person, our office address is:</p>
+            <p><strong>Anime Cloud, Inc.</strong><br>
+            1234 Cloud St, Suite 101<br>
+            Tel Aviv, Israel</p>
+    
+            <h2>5. Contact Form</h2>
+            <p>Please use the form below to send us a direct message:</p>
+            
+            <!-- You can add a form for direct contact if needed -->
+            <form action="your-server-endpoint" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send Message</button>
+                <!-- Button to Redirect to Thank You Page -->
+<button onclick="window.location.href='thankyou.html';" class="thank-you-btn">Submit</button>
+
+            </form>
+    
+            <p>If you prefer, you can also send us a message directly via email at the addresses mentioned above. We strive to respond to all inquiries as quickly as possible.</p>
+        </section>
+    </main>
+    
+    <script> 
+        function myFunction() {
+            var x = document.getElementById("myLinks");  // جلب العنصر الذي يحمل الـ ID "myLinks" وتخزينه في المتغير x
+            if (x.style.display === "block") {  // إذا كان العنصر مرئيًا حاليًا (عرضه على أنه block)
+                x.style.display = "none";  // أخفاء العنصر عن طريق تعيين خاصية العرض إلى "none"
+            } else {  // إذا لم يكن العنصر مرئيًا (إذا كان مخفيًا)
+                x.style.display = "block";  // إظهار العنصر عن طريق تعيين خاصية العرض إلى "block"
+            }
+        }
+    </script>
+    
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="mailto:zenathecookie@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+            <li><a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+    </footer>
+    
+</p>
+</footer>
+</body>
+<style>
+/* General reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #ed4d8a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contact Page Styling */
+.contact-wrapper {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #191b1e;
+}
+
+.contact-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Contact Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e492cc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff66b2;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff5fa2;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ff66b2; /* Same color as the navbar for consistency */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1em;
+    margin-top: 40px;
+    border-top: 3px solid #ff66b2;
+    border-radius: 10px 10px 0 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #ff66b2;
+    color: #191b1e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-wrapper {
+        padding: 20px;
+    }
+
+    .contact-content h1 {
+        font-size: 28px;
+    }
+
+    .contact-content p {
+        font-size: 16px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+}
+
+/* Nav Bar Styling */
+nav {
+    background: linear-gradient(135deg, #ff66b2, #ff80cc, #ff5fa2); /* Gradient background */
+    padding: 15px 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Logo and Title Container */
+.logo-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.anime-image {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.anime-title {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ff66b2;
+}
+
+/* Hamburger Menu */
+.topnav #myLinks {
+    display: none;
+    background-color: #191b1e;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Active Link */
+.active {
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .contact-wrapper {
+        padding: 20px;
+    }
+
+    .contact-content h1 {
+        font-size: 28px;
+    }
+
+    .contact-content h2 {
+        font-size: 22px;
+    }
+
+    .contact-content p {
+        font-size: 16px;
+    }
+}
+
+</style>
+</html>
